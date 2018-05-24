@@ -1,10 +1,10 @@
 require "pry"
 def fizzbuzz(int = nil)
-if int % 3 == 0
+if fizzbuzz(int) % 3 == 0
   "Fizz"
-elsif int % 5 == 0
+elsif fizzbuzz(int) % 5 == 0
   "Buzz"
-elsif int % 3 == 0 && 5 == 0
+elsif fizzbuzz(int) % 3 == 0 && 5 == 0
   "Fizzbuzz"
 end
 end
