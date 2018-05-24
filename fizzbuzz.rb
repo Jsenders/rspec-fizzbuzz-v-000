@@ -1,6 +1,6 @@
 
 def fizzbuzz(int = nil)
-if int % 3 == 0 && 5 == 0
+if int % 15 == 0
   "Fizzbuzz"
 elsif int % 5 == 0
   "Buzz"
