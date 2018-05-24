@@ -23,5 +23,5 @@ describe "fizzbuzz" do
   end
 end
 
-def fizzbuzz
+def "fizzbuzz"
 end
