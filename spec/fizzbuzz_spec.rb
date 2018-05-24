@@ -1,3 +1,7 @@
+def fizzbuzz
+
+end
+
 require_relative './spec_helper.rb'
 
 describe "fizzbuzz" do
@@ -23,5 +27,3 @@ describe "fizzbuzz" do
   end
 end
 
-def fizzbuzz
-end
